@@ -1,0 +1,59 @@
+/*
+Refactor:
+1. Make "image-footer" bigger(relative ?)"
+2. Images too big, make smaller w/o breaking
+3. Make responsive using media queries
+4. Add Triangle
+5. Use Sass
+*/
+
+.octodex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+  padding: 20px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: large;
+  color: gray;
+}
+
+.octocat {
+  padding: 22px 14px 28px 14px;
+
+}
+
+ .octocat a img {
+  border: solid 1px gray;
+ }
+
+ a {
+   text-decoration: none;
+   color: black;
+ }
+
+.image-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  padding: 5px 0px 5px 0px;
+  border-bottom: solid 1px gray;
+}
+
+.image-caption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.authors img {
+  width: 30px;
+  height: 30px;
+  justify-content: flex-end;
+}
+
+.image-number {
+
+}
